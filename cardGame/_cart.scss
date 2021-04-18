@@ -1,0 +1,97 @@
+.final-cart{
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+
+    .tag-name{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        font-size: 25px;
+
+        h2{
+            margin: 0 10px;
+            font-size: 30px;
+        }
+    }
+
+
+}
+
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    .item-detail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        color: var(--primary-color);
+
+        img{
+            max-width: 15%;
+            max-height: 150px;
+            height: 100%;
+            object-fit: contain;
+
+        }
+
+        .description{
+            width: 50%;
+            margin: 0 10px;
+
+            a:visited{
+                color: var(--primary-color);
+            }
+        }
+
+        p{
+            width: 10%;
+        }
+
+        p.subPrize{
+            color: var(--second-color);
+        }
+
+        .quantity-control{
+            display: flex;
+            align-items: center;
+            width: 15%;
+            i{
+                font-size: 25px;
+            }
+            i:hover{
+                cursor: pointer;
+            }
+            input{
+                height: 15px;
+                border: 3px solid var(--primary-color);
+                width: 20px;
+                padding-left: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.sub-total{
+    margin: 10px 0 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    padding: 10px;
+    h2{
+        margin: 0 10px;
+    }
+    button{
+        background-color: var(--third-color);
+        font-size: 20px;
+        font-weight: 700;
+        width: 300px;
+        cursor: pointer;
+    }
+}

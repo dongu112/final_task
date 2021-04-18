@@ -1,0 +1,63 @@
+.content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        max-height: 500px;
+        height: 100%;
+        width: 500px;
+        object-fit: contain;
+    }
+
+    h2{
+        font-size: 30px;
+        color: var(--primary-color);
+    }
+
+    .rate{
+        margin-top: 10px;
+        color: goldenrod;
+    }
+
+    p{
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 700;
+        background-color: var(--last-color);
+
+    }
+    .quantity{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        i{
+            font-size: 30px;
+        }
+        i:hover{
+            cursor: pointer;
+        }
+        input{
+            height: 20px;
+            border: 3px solid var(--primary-color);
+            width: 40px;
+            padding-left: 30px;
+            font-size: 20px;
+        }
+    }
+
+    .payment{
+        margin-top: 10px;
+        button{
+            background-color: var(--third-color);
+            color: var(--primary-color);
+            font-size: 30px;
+            padding: 5px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    }
+}
